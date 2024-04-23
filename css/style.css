@@ -1,0 +1,117 @@
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.navbar-expand{
+    background-color: #fff3d8;
+    justify-content: space-between !important;
+    align-items: center;
+    height: 150px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+nav .logo {
+    width: 110px;
+    height: auto;
+}
+
+.container-logo {
+    margin-right: 150px !important;
+    justify-content: end;
+}
+
+nav .container-navigation-items {
+    margin-left: 150px !important;
+    justify-content: start;
+}
+
+nav .container-navigation-items .nav-link {
+    color: #005246;
+    margin-right: 70px !important;
+    font-size: 20px;
+    text-align: center;
+} 
+
+.active-pill {
+    height: 4px;
+    width: 70px;
+    background-color: #005246;
+    border-radius: 50em;
+}
+
+.background-image {
+    position: relative;
+    width: 100%;
+    height: 800px;  
+    object-fit: cover;
+    opacity: 0.8;
+    -webkit-filter: blur(2px); /* Safari 6.0 - 9.0 */
+    filter: blur(2px);
+}
+
+.text-overlay {
+    position: absolute;
+    width: 40%;
+    top: 35%;
+    left: 150px;
+    color: #005246;
+}
+
+.text-overlay h1 {
+    font-size: 64px;
+    margin-bottom: 35px !important;
+    overflow: hidden;
+    font-family: "Playfair Display", serif !important;
+    font-weight: 500 !important;
+}
+
+.text-overlay p {
+    font-size: 18px;
+    margin-bottom: 35px !important;
+}
+
+.btn-primary {
+    width: 160px !important;
+    height: 40px !important;
+    border-radius: 10px;
+    background-color:#FFD546 !important;
+    color:#005246 !important;
+    border: 0 !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-primary:hover{
+    background-color: #fcc820 !important;
+    border: 0 !important;
+    color:#005246;
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+.btn-primary:clicked {
+    background-color: #fcc511 !important;
+    border: 0 !important;
+    color:#005246;
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+
+.bx-chevron-down {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 10px !important;
+}
