@@ -22,19 +22,49 @@ body {
 
 
 nav .logo {
+    margin-left: 150px !important;
     width: 110px;
     height: auto;
 }
 
 .container-logo {
     margin-right: 150px !important;
+    justify-content: start;
+}
+
+.navbar-expand-lg {
+    background-color: #fff3d8;
+    justify-content: space-between !important;
+    align-items: center;
+    min-height: 150px; /* Set a minimum height */
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+nav.navbar.navbar-expand-lg.fixed-top {
+    height: auto;
+    
+}
+
+.navbar-toggler {
+    margin-right: 40px !important;
+}
+
+div#navbarNav {
     justify-content: end;
 }
 
+.container-navigation-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
 
-nav .container-navigation-items {
-    margin-left: 150px !important;
-    justify-content: start;
+.nav-item {
+    margin-bottom: 10px; /* Adjust as needed */
+}
+
+.collapse.show {
+    height: auto !important; /* Allow the collapse to expand to auto height */
 }
 
 nav .container-navigation-items .nav-link {
@@ -137,6 +167,9 @@ h1 {
     background-color: #ffd7b5;
     justify-content: space-between;
     overflow-y: hidden;
+    margin-left: 150px !important;
+    margin-right: 150px !important;
+    justify-content: space-between;
 }
 
 .section2 .paragraphs{
@@ -169,15 +202,20 @@ h1 {
     position: relative;
 }
 
+.svg {
+    margin-top: 60px !important;
+}
+
 @media (max-width: 992px){
     .logo{
+        margin-top: 10px !important;
         margin-left: 50px !important; 
     }
 
     .text-overlay {
         position: absolute;
         width: 70%;
-        top: 35%;
+        top: 15%;
         left: 0px;
         margin-left: 50px !important;
         margin-right: 50px !important;
@@ -201,5 +239,72 @@ h1 {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+    }
+    .nav-item {
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+        text-align: center !important;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-bottom-color: #005246;
+        border-width: 0px;
+        border-bottom-width: 1px;
+        border-style: solid;
+        height: 50px;
+    }
+
+    .navbar-nav.container-navigation-items {
+        margin: 20px !important;
+        width: 60%;
+    }
+
+    nav .container-navigation-items .nav-link {
+        margin-right: 0 !important;
+    }
+    
+    .active-pill {
+        margin-left: 32% !important;
+        
+    }
+
+    div#navbarNav {
+        margin-left: 20% !important;   
+    }
+
+    .gas {
+        margin-top: 200px !important;
+    }
+
+    .gas2 {
+        margin-top: -1px !important;
+    }
+
+    .svg {
+        margin-top: 800px !important;
+    }
+
+    .section2 {
+        margin-top: 190px !important;
+        display: flex;
+        flex-direction: row;
+        margin: 150px !important;
+        background-color: #ffd7b5;
+        justify-content: space-between;
+        overflow-y: hidden;
+        margin-left: 50px !important;
+        margin-right: 50px !important;
+        justify-content: space-between;
+    }
+
+    .section2 .paragraphs {
+        width: 95%;
+        justify-content: center;
+        font-size: 16px;
+        color: #005246;
+        margin-left: 50px !important;
+    }
+
+    #gas3 {
+        margin-top: 10px !important;
     }
 }
